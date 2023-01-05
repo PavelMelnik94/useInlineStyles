@@ -6,18 +6,33 @@ This function also returns an object with CSS styles that can be applied to an e
 
 The function uses the useMemo hook from the react library to memoize the CSS style objects that it returns, so that it doesn't have to recalculate them on every render if the input hasn't changed. This helps to improve the performance of the component.
 
+
+#### all group:
+
 `const inline = useInlineStyles({ uniStyles: props, include: {all: true } })`
 
-only gaps group: 
+#### only gaps group: 
 `const inline = useInlineStyles({ uniStyles: props, include: {gaps: true } })`
 
-example of use: 
+and etc.
+#### example of use: 
 
-`const App = ({
+const App = ({
   ...props,
 }) {
 
   const inline = useInlineStyles({ uniStyles: props, include: {gaps: true } })
 
   return <div style={...inline}> </div>
-}`
+}
+
+
+##### default props:
+include = {
+		positions: false,
+		gaps     : false,
+		sizes    : false,
+		fonts    : false,
+		colors   : false,
+		all      : false,
+	}
