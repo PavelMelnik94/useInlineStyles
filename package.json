@@ -21,6 +21,14 @@
 		"email": "recyclesordie94@gmail.com"
 	},
 	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PavelMelnik94/useInlineStyles.git"
+	},
+	"bugs": {
+		"url": "https://github.com/PavelMelnik94/useInlineStyles/issues"
+	},
+	"homepage": "https://github.com/PavelMelnik94/useInlineStyles#readme",
 	"dependencies": {
 		"react": "^18.2.0"
 	}
