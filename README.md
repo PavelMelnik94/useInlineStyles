@@ -10,3 +10,14 @@ The function uses the useMemo hook from the react library to memoize the CSS sty
 
 only gaps group: 
 `const inline = useInlineStyles({ uniStyles: props, include: {gaps: true } })`
+
+example of use: 
+
+`const App = ({
+  ...props,
+}) {
+
+  const inline = useInlineStyles({ uniStyles: props, include: {gaps: true } })
+
+  return <div style={...inline}> </div>
+}`
