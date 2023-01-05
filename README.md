@@ -17,22 +17,27 @@ The function uses the useMemo hook from the react library to memoize the CSS sty
 and etc.
 #### example of use: 
 
+<pre><code> 
 const App = ({
-  ...props,
+...props,
 }) {
 
-  const inline = useInlineStyles({ uniStyles: props, include: {gaps: true } })
-
-  return <div style={...inline}> </div>
+const inline = useInlineStyles({ uniStyles: props, include: {gaps: true } })
+  
+return &lt;div style={...inline}&gt; &lt;/div&gt;
 }
 
 
+&lt;App mt={5} /&gt;
+</code></pre>
+
+
 ##### default props:
-include = {
+`include = {
 		positions: false,
 		gaps     : false,
 		sizes    : false,
 		fonts    : false,
 		colors   : false,
 		all      : false,
-	}
+	}`
