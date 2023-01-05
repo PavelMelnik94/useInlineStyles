@@ -1,0 +1,27 @@
+{
+	"name": "use-inline-styles",
+	"version": "1.0.0",
+	"description": "useInlineStyles is a function that returns an object with CSS styles that can be applied to an element using the style attribute in JSX.",
+	"main": "index.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"react",
+		"hooks",
+		"ui",
+		"inline",
+		"styles",
+		"css-in-js",
+		"styled",
+		"react-hook"
+	],
+	"author": {
+		"name": "Pavel Melnik",
+		"email": "recyclesordie94@gmail.com"
+	},
+	"license": "ISC",
+	"dependencies": {
+		"react": "^18.2.0"
+	}
+}
