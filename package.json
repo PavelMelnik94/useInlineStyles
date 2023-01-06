@@ -1,6 +1,6 @@
 {
 	"name": "use-inline-styles",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "useInlineStyles is a function that returns an object with CSS styles that can be applied to an element using the style attribute in JSX.",
 	"main": "index.ts",
 	"types": "./types.d.ts",
