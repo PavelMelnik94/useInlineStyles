@@ -6,6 +6,11 @@ This function also returns an object with CSS styles that can be applied to an e
 
 The function uses the useMemo hook from the react library to memoize the CSS style objects that it returns, so that it doesn't have to recalculate them on every render if the input hasn't changed. This helps to improve the performance of the component.
 
+`npm i use-inline-styles`
+
+or
+
+`yarn add use-inline-styles`
 
 #### all group:
 
